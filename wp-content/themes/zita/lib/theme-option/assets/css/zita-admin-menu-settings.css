@@ -1,0 +1,330 @@
+/**
+ * CSS code for all Zita Extensions admin screens
+ *
+ * @package Zita
+ * @since 1.0.0
+ */
+.zta-clear:before, .zta-clear:after {
+	content: " ";
+	display: table;
+}
+.zta-clear:after {
+	clear: both;
+}
+/**
+ * Error Message
+ */
+#message {
+    display: block;
+    margin-left: 0;
+}
+/**
+ * CSS code for all Zita Extensions admin screens
+ *
+ * @package Zita
+ * @since 1.2.4
+ */
+/**
+ * Zita Welcome Page
+ */
+.appearance_page_zita #wpcontent{
+ 	padding: 0;
+ }
+.zta-menu-page-wrapper.wrap{
+	margin: 0;
+}
+.zta-menu-page-wrapper a{
+	text-decoration: none;
+}
+.zta-theme-page-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.zta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.zta-container .zta-normal-cusror.hndle{
+    cursor: initial;
+}
+.zta-container .postbox .hndle{
+    background:#fff;
+    border-bottom: 1px solid #e6e6e6;
+    color:#32373c;
+}
+/* Top Right Links. */
+.zta-top-links {
+    flex: auto;
+    text-align: right;
+}
+.zta-top-links ul{
+    margin: 0;
+}
+.zta-top-links ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.zta-container.zta-welcome,
+.general .zta-container {
+	max-width: 930px;
+}
+.zta-quick-setting-section span.dashicons {
+    margin: 1px 3px 0 10px;
+   color: #0073aa;
+}
+.zta-container div.notice,
+.zta-container div.updated,
+.zta-container div.error{
+	margin-top: 0;
+}
+.zta-container #poststuff h2{
+padding: 14px 12px;
+    font-size: 16px;
+}
+.zta-container img.zta-starter-sites-img {
+    width: 100%;
+    max-height: 348px;
+}
+.zta-flex{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.zta-theme-title {
+    align-content: flex-start;
+    text-align: left;
+}
+.zta-theme-title .zita-theme-version {
+    border-radius: 3px;
+    font-size:  0.5em;
+    font-weight:  400;
+    padding: 2px 7px;
+    color: #fff;
+}
+.zta-theme-title a {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:100%;
+    margin: 0 auto;
+}
+.zta-theme-title a,
+.zta-theme-title span{
+	font-size: 1.5rem;
+    color: #333333;
+    font-weight: 500;
+}
+.zta-theme-icon{
+	width: 60px;
+    vertical-align: bottom;
+}
+.zta-theme-title,.ast-top-links{
+width:100%;
+margin-bottom:10px;
+}
+.zta-top-links {
+    flex: auto;
+    text-align: center;
+}
+.zta-theme-page-header {
+background: linear-gradient(to right top, #f7b944, #f7a53e, #f5923b, #f27e3b, #ed693e);
+color:#fff;
+}
+.zta-theme-title a:focus,.zta-theme-title a:focus-within{
+outline:0;
+box-shadow:none;
+}
+/**
+ * Zita Quick Settings
+ */
+ .zta-quick-setting-section ul,
+ .zta-addon-list-section ul{
+ 	margin: 0;
+ }
+.zta-quick-setting-section li{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 0;
+}
+.zta-addon-list-section li{
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 0;
+}
+.zta-quick-setting-section li{
+    padding: 10px 0;
+}
+.zta-quick-setting-section li:nth-child(even),.zta-quick-setting-section li:nth-child(odd){
+    width:25%;
+}
+.zta-quick-setting-section li a{
+	margin: 5px;
+	display: inline-block;
+}
+.zta-addon-list-section li{
+	padding: 10px 15px;
+}
+.zta-quick-setting-section a.ast-quick-setting-title{
+	flex: auto;
+}
+.zta-addon-list-section .zta-addon-list li {
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 10px 15px; 
+}
+
+.zta-addon-list-section .zta-addon-list li:nth-child(even){
+    background-color: #fbfbfb;
+}
+.zta-addon-link-wrapper{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    flex: auto;
+}
+.zta-addon-link-wrapper a{
+    line-height: 1.6;
+}
+.zta-addon-link-wrapper a:nth-child(even){
+    margin: 0 10px;
+}
+.zta-menu-page-wrapper a.ztabtn {
+    text-decoration: none;
+    padding: 6px 10px;
+    background:#0073aa;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    line-height: inherit;
+        height: auto;
+    font-size: 14px;
+    display: -webkit-inline-box;
+    border:1px solid #0072da1c;
+    transition-property: border,background,color;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+}
+.zta-menu-page-wrapper a.ztabtn a{
+color:#fff;
+}
+.zta-menu-page-wrapper a.ztabtn:hover,.zta-menu-page-wrapper a.ztabtn a:hover{
+background: #046594;
+    color: #fff;
+}
+.zta-menu-page-wrapper a.buy-pro{
+       background:#f3853b;
+     border:1px solid #f3853b;
+}
+.zta-menu-page-wrapper a.ztabtn.buy-pro:hover{
+background: #fe9733;
+     border:1px solid #fe9733;
+}
+#poststuff .inside {
+     margin:0;
+}
+/**
+ * Zita Welcome screen sidebar
+ */
+.zta-sidebar .hndle .dashicons{
+	margin: 0 5px 0 0;
+        display: none;
+}
+@media (max-width:767px){
+#side-sortables .postbox {
+    width: 100%!important;
+    float: left;
+    border: none;
+    margin-right:0;
+}
+#side-sortables .postbox:nth-child(1) {
+    margin-right:0!important;
+}
+.zta-quick-setting-section li:nth-child(even), .zta-quick-setting-section li:nth-child(odd) {
+    width: 100%;
+}
+}
+
+@media (max-width: 544px){
+	.zta-quick-setting-section li{
+		width: 100%;
+	}
+}
+/**
+ * Zita Custom Notice for static position
+ */
+.ast-notice{
+    margin-bottom: 20px;
+}
+.ast-notice.ast-notice-error{
+    border-left-color: #dc3232;
+}
+.ast-notice{
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    padding: 1px 12px;
+}
+.ast-notice p{
+    margin: 0.5em 0;
+    padding: 2px;
+}
+.zta-container .postbox.zita-pro-link .hndle{
+   background: #fff;
+   border-bottom: 1px solid #e6e6e6;
+   color: #fff;
+
+}
+.zta-container .postbox.zita-pro-link .hndle a{
+font-size:13px;
+}

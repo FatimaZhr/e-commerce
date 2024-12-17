@@ -1,0 +1,319 @@
+/*
+ Theme Name:   Zita Storefront
+ Theme URI:    https://themehunk.com/zita-pro-wordpress-theme/
+ Description:  Zita Storefront is a child theme of zita WordPress theme, This theme add frontend layout switcher for shop page. Zita is best theme to create a perfect shop website using WooCommere. Zita is completely builder based theme, With super fast and highly customizable options. Zita works with any of your favourite page builder like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc. Best Suitable for creating any type of website such a corporate, store, agency, blog, portfolio, restaurant, wedding, construction, hospital, school, interior, car workshop, life coach, wine shop, barber shop, furniture shop, yoga, resume, charity, digital marketing etc. Zita includes 8 unique header layout and 8 footer widget layout which makes it extremely powerful. Some more amazing feature are #Woocommerce ready #RTL Ready #Full Responsive #Edit settings in tablet & mobile #Top header #Bottom header #Top footer #Bottom Footer #Transparent Header. Looking for perfect base theme? Looking for perfect multipurpose theme? No need to Look further! Just go with Zita demos: https://wpzita.com/. Zita is built with best SEO practice and best friend of Woocommerce and Elementor.
+ Author:       WpZita
+ Author URI:   https://wpzita.com
+ Template:     zita
+ Version:      1.0.4
+ Requires at least: 4.5
+ Tested up to: 6.2
+ Requires PHP: 5.2.4
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors 
+ Text Domain:  zita-storefront
+*/
+.zita-list-grid-switcher {
+    float: right;
+    margin-right:0;
+    position: relative;
+}
+.zita-list-grid-switcher a{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background:#ebe9eb;
+    display: block;
+    float: left;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+    margin-right:10px;
+}
+.zita-list-grid-switcher a.selected, .zita-list-grid-switcher a:hover{
+background:#006799;
+border: 1px solid #006799;
+color: #fff;
+}
+.shop-zita-product-excerpt,.zita-list-view .zta-woo-shop-product-description{
+    display: none;
+}
+.zita-list-view .shop-zita-product-excerpt{
+    display: block;
+}
+.woocommerce-page .zita-list-view ul.products li.product {
+    float: left;
+    width: 100%!important;
+    margin-right: 0%!important;
+    margin-bottom: 15px!important;
+}
+.zita-list-view .zita-shop-thumbnail-wrap{
+width:35%;
+float:left;
+}
+.zita-list-view .zita-shop-summary-wrap{
+width:65%;
+float:left;
+    padding-left: 20px;
+}
+#shop-product-wrap ul.products{
+    padding-top: 15px;
+}
+.woocommerce .zita-list-view ul.products li.product .onsale {
+    top: 0;
+    right:auto;
+    left:0;
+    margin: -.5em -.5em 0 0;
+}
+
+.zita-list-view ul.products  .zita-shadow-5 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-4 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-3 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-2 .zita-shop-summary-wrap,.zita-list-view ul.products  .zita-shadow-1 .zita-shop-summary-wrap{
+   padding-top:15px!important;
+}
+body {
+    background:#e2e4e7;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content{
+display:none;
+}
+#content .zita-storefront-blog-layout #main .main-content-row {
+-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:flex-start;
+    -webkit-align-items:flex-start;
+    -moz-box-align: flex-start;
+    -ms-flex-align:flex-start;
+    align-items:flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;}
+#content .zita-storefront-blog-layout article.zita-article{
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom: 4px;
+    width: calc(50% - 4px);
+   float:none;
+}
+#content .zita-storefront-blog-layout article.zita-article:nth-child(5n+3), #content .zita-storefront-blog-layout article.zita-article:nth-child(5n+4), #content .zita-storefront-blog-layout article.zita-article:nth-child(5n+5){
+    width: calc(33.333333% - 4px);
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper{
+position: absolute;
+ bottom:0;
+}
+#content .zita-storefront-blog-layout article.zita-article .post-img-wrapper .post-img{
+margin-bottom:0;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper h2.entry-title a{
+color:#fff;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper,
+#content .zita-storefront-blog-layout article.zita-article .entry-meta a,
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper .entry-meta{
+color:rgba(255, 255, 255, 0.8);
+font-size: 14px;
+
+}
+#content .zita-storefront-blog-layout article.zita-article h2.entry-title a:before{
+width:0;
+}
+article.zita-article:first-child .zita-storefront-blog-layout h2.entry-title a,
+article.zita-article:nth-child(5n+5) .zita-storefront-blog-layout h2.entry-title a{
+margin:0;
+}
+.entry-content-wrapper{
+position:relative;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper:before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    top: -100px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(5.3%, rgba(0, 0, 0, 0.917)), color-stop(10.6%, rgba(0, 0, 0, 0.834)), color-stop(15.9%, rgba(0, 0, 0, 0.753)), color-stop(21.3%, rgba(0, 0, 0, 0.672)), color-stop(26.8%, rgba(0, 0, 0, 0.591)), color-stop(32.5%, rgba(0, 0, 0, 0.511)), color-stop(38.4%, rgba(0, 0, 0, 0.433)), color-stop(44.5%, rgba(0, 0, 0, 0.357)), color-stop(50.9%, rgba(0, 0, 0, 0.283)), color-stop(57.7%, rgba(0, 0, 0, 0.213)), color-stop(65%, rgba(0, 0, 0, 0.147)), color-stop(72.9%, rgba(0, 0, 0, 0.089)), color-stop(81.4%, rgba(0, 0, 0, 0.042)), color-stop(90.6%, rgba(0, 0, 0, 0.011)), to(transparent));
+    background-image: -o-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+    background-image: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.917) 5.3%, rgba(0, 0, 0, 0.834) 10.6%, rgba(0, 0, 0, 0.753) 15.9%, rgba(0, 0, 0, 0.672) 21.3%, rgba(0, 0, 0, 0.591) 26.8%, rgba(0, 0, 0, 0.511) 32.5%, rgba(0, 0, 0, 0.433) 38.4%, rgba(0, 0, 0, 0.357) 44.5%, rgba(0, 0, 0, 0.283) 50.9%, rgba(0, 0, 0, 0.213) 57.7%, rgba(0, 0, 0, 0.147) 65%, rgba(0, 0, 0, 0.089) 72.9%, rgba(0, 0, 0, 0.042) 81.4%, rgba(0, 0, 0, 0.011) 90.6%, transparent 100%);
+}
+#content .zita-storefront-blog-layout article.zita-article h2.entry-title,
+#content .zita-storefront-blog-layout article.zita-article .entry-meta,
+#content .zita-storefront-blog-layout article.zita-article .entry-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ #content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper .entry-meta{
+    margin-bottom:20px;
+ }
+#content .entry-content-outer-wrapper.zita-storefront-blog-layout .entry-content-wrapper.no-thumb{
+width:100%;
+}
+#content .entry-content-outer-wrapper.zita-storefront-blog-layout .zta-date-meta.no-thumb .posted-on{
+margin-left:0;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content{
+margin-bottom:40px;
+}
+#content .zita-storefront-blog-layout article.zita-article .post-img-wrapper,#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper{
+width:100%;
+float:none;
+margin:0;
+padding-right:0;
+}
+#content.site-content{
+  display:block;
+}
+#content .entry-content-outer-wrapper.zita-storefront-blog-layout:before{
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+}
+
+#content .entry-content-outer-wrapper.zita-storefront-blog-layout {
+    padding:0;
+    position: relative;
+        overflow: hidden;
+}
+article.zita-article .zita-storefront-blog-layout h2.entry-title{
+    font-size: 21px;
+    font-family: "Catamaran-bold", sans-serif;
+    position: relative;
+    letter-spacing: normal;
+
+}
+article.zita-article .zita-storefront-blog-layout h2.entry-title a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    width:3px;
+    height: 60%;
+    background-color:#006799;
+}
+.zita-storefront-blog-layout .entry-meta {
+font-family: "Catamaran-semibold", sans-serif;
+    margin-top: 10px;
+    position:relative;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb{
+position:relative;
+color:#808285;
+padding: 20px;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb:before{
+position:relative;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb h2.entry-title a{
+color:#3a3a3a;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta{
+   color: #9c9c9c;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta a{
+color:#666;
+}
+#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb h2.entry-title, #content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-meta,#content .zita-storefront-blog-layout article.zita-article .entry-content-wrapper.no-thumb .entry-content{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#content .zita-storefront-blog-layout article.zita-article:hover .post-img-wrapper .post-img img{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+    will-change: transform;
+}
+
+#content .zita-storefront-blog-layout article.zita-article .post-img-wrapper .post-img img {
+    transition: transform 1s ease;
+}
+.home .woocommerce ul.products li.product {
+    padding: 15px;
+    box-shadow: 0 0 10px 3px rgba(110,193,228,.13);
+    -webkit-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    -moz-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    background:#fff;
+}
+.home .woocommerce ul.products li.product .woocommerce-loop-product__title{
+    font-size:18px;
+}
+.home span.woocommerce-Price-amount.amount{
+    font-size: 16px;
+    font-weight: bold;
+    color: #047792;
+}
+.home .home .woocommerce ul.products li.product .onsale, .home .woocommerce span.onsale, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .home .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background: #08161D;
+}
+.home .woocommerce a.button{
+    background:#000;
+    font-weight:bold;
+}
+.home .woocommerce nav.woocommerce-pagination ul li a:focus, .home .woocommerce nav.woocommerce-pagination ul li a:hover, .home .woocommerce nav.woocommerce-pagination ul li span.current {
+    background: black;
+    color:#fff;
+}
+.home .woocommerce nav.woocommerce-pagination ul li a, .home .woocommerce nav.woocommerce-pagination ul li span {
+    background: #fff;
+    color: #000;
+    border: none;
+    box-shadow: 0 0 10px 3px rgba(110,193,228,.13);
+    -webkit-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    -moz-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+}
+.home .woocommerce-ordering select {
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px 3px rgba(110,193,228,.13);
+    -webkit-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    -moz-box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+    box-shadow: 0 0 10px 3px rgb(156 215 241 / 13%);
+}
+.home .zita-list-grid-switcher a.selected, .home .zita-list-grid-switcher a:hover {
+    background: #000000!important;
+    border: none;
+}
+#respond.comment-respond #submit:focus,
+[type="submit"]:focus{
+ outline: thin dotted;
+text-decoration: underline;  
+}
+.wp-block-search .wp-block-search__label{
+    font-weight: 500;
+}
+.powered-by-wordpress a{
+    color: #111;
+}
+@media screen and (max-width: 767px){
+#content .zita-storefront-blog-layout article.zita-article:nth-child(5n+3),
+ #content .zita-storefront-blog-layout article.zita-article:nth-child(5n+4),
+  #content .zita-storefront-blog-layout article.zita-article:nth-child(5n+5),
+  #content .zita-storefront-blog-layout article.zita-article{
+    width: 100%;
+ }
+ [type="submit"] {
+    padding: 7px 30px;
+}
+.menu-toggle .menu-btn{
+    padding: 7px;
+}
+}
